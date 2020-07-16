@@ -4,21 +4,58 @@
     box-sizing: border-box;;
 }
 
-body {
-    background-color: red;
-    padding: 100px 250px;
-
-}
-
 .text {
     color: white;
     text-align: center;
     text-transform: uppercase;
 }
 
-.form, .ticket {
+body {
+    background-color: red;
+    padding: 100px 250px;
+
+}
+
+.form {
     height: 250px;
     width: 100%;
     margin: 50px 0px;
+    border-radius: 20px;
     background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 75px;
+}
+
+.ticket {
+    height: 250px;
+    width: 100%;
+    margin: 50px 0px;
+    border-radius: 20px;
+    background: white;
+}
+
+.input, .generator {
+    height: 50%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.btg {
+    display: flex;
+    justify-content: center;
+}
+.btg button {
+    margin: 50px;
 }
