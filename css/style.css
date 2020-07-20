@@ -69,20 +69,31 @@ body {
     color: red;
 }
 
+.hidden-b {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.show {
+    opacity: 1;
+    transition: 0.2s;
+}
+
 .passengers {
     height: 20%;
     width: 100%;
-    border: 1px solid black;
 }
 
 .table-price {
     height: 80%;
     width: 100%;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
 }
 
 tr :first-child {
     background-color: gray;
+}
+td {
+    text-align: center;
 }

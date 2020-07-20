@@ -14,25 +14,25 @@
             <div class="input">
                 <div class="user">
                     <p>Nome Cognome</p>
-                    <input class="inp-sel" type="text" name="" value="">
+                    <input id="nome-cognome" class="inp-sel" type="text" name="" value="">
                 </div>
                 <div class="user">
                     <p>Km da percorrere</p>
-                    <input class="inp-sel" type="number" name="" value="">
+                    <input id="km" class="inp-sel" type="number" name="" value="">
                 </div>
                 <div class="user">
                     <p>Fascia d'età</p>
-                    <select class="inp-sel">
-                        <option value="0">Minorenne</option>
-                        <option value="1">Maggiorenne</option>
-                        <option value="2">Over 65</option>
+                    <select id="lista-eta" class="inp-sel">
+                        <option value="minorenne">Minorenne</option>
+                        <option value="maggiorenne">Maggiorenne</option>
+                        <option value="over65">Over 65</option>
                     </select>
                 </div>
             </div>
             <div class="generator">
                 <div class="btg">
-                    <button type="button" name="button">Genera</button>
-                    <button type="button" name="button">Annulla</button>
+                    <button id="genera" type="button" name="button">Genera</button>
+                    <button id="annulla" type="button" name="button">Annulla</button>
                 </div>
             </div>
         </section>
@@ -43,7 +43,7 @@
             <div class="passengers">
                 <h2>DETTAGLIO PASSEGGERI</h2>
             </div>
-            <div class="table-price">
+            <div id="biglietto"class="table-price">
                 <table>
                     <tr class="uno">
                         <th>NOME PASSEGGERO</th>
@@ -53,11 +53,11 @@
                         <th>Costo Biglietto</th>
                     </tr>
                     <tr class="due">
-                        <td>1</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>1</td>
+                        <td id="nome-passeggero"></td>
+                        <td id="offerta"></td>
+                        <td id="n-carrozza"></td>
+                        <td id="codice"></td>
+                        <td id="costo"></td>
                     </tr>
                 </table>
             </div>
